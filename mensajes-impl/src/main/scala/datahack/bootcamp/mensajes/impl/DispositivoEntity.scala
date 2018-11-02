@@ -42,7 +42,7 @@ class DispositivoEntity extends PersistentEntity {
       // Command handler
       case (UltimaPosicionCommand(imei), ctx, state) =>
         // Respondemos con la ultima posicion del imei
-        ctx.reply(s"Ultima Posicion $imei - evento=[${state.message}] es Lope de Hoyos 10")
+        ctx.reply(s"Ultima Posicion $imei - evento=[${state.message}] es Lopez de Hoyos 135")
     }.onEvent {
       // Event handler
       case (MensajeNuevaPosicionEvent(newMessage), state) =>
